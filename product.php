@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents("http://rdapi.herokuapp.com/product/read_one.php?id=".$id);
+$json = file_get_contents("http://rdapi.herokuapp.com/product/read.php");
 
 $data = json_decode($json,true);
 $list = $data['records'];
@@ -16,7 +16,7 @@ if(isset($_POST['search'])){
 }
 ?>
 
-<h1> List of Products.. </h1>
+<h1> Product List </h1>
 
 <form action="index.php?navigation=product" method="POST">
 	Search:<input type="text" name="search" placeholder="Enter Product Name">
