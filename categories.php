@@ -7,7 +7,7 @@ $list = $data['records'];
 
 ?>
 
-<h1> Category list </h1>
+<h1> List of Categories... </h1>
 
 <table>
     <tr>
