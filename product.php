@@ -16,7 +16,7 @@ if(isset($_POST['search'])){
 }
 ?>
 
-<h1> Product List </h1>
+<h1> List of Products... </h1>
 
 <form action="index.php?navigation=product" method="POST">
 	Search:<input type="text" name="search" placeholder="Enter Product Name">
