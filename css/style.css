@@ -13,8 +13,9 @@
    
   .navbar {
     overflow: hidden;
-    background-color: #white;
+    background-color: #5E5AAA;
     position: sticky;
+	height: 33px;
   }
   
 
@@ -23,6 +24,8 @@
 	text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    background: #5E5AAA;
+	color: black;
   }
   
 
@@ -66,5 +69,5 @@
     height: 32px;
     text-align: center;
     background: #5E5AAA;
-    margin-top: 540px;
+    margin-top: 535px;
   }
