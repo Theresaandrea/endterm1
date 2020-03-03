@@ -6,7 +6,7 @@
 ?>
 
 <form action="pro_create.php" method="POST">
-<h1> Create Product </h1>
+<h1> Create your own product... </h1>
 <input type="text" name="name" placeholder="name"/>
 <input type="text" name="description" placeholder="description"/>
 <input type="text" name="price" placeholder="price"/>
