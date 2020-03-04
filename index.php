@@ -28,6 +28,12 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
           case 'details':
             require_once 'details.php';
             break;
+	  case 'update':
+            require_once 'update.php';
+            break;
+	  case 'delete':
+            require_once 'delete.php';
+            break;
         }
     ?>
       </div>
