@@ -20,5 +20,5 @@
       }
     ?>
 	</select>
-<input type="submit" name="submit" value="submit"/>
+<input type="submit" name="add" value="submit"/>
 </form>
