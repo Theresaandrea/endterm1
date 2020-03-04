@@ -20,6 +20,8 @@ $value = $list;
     </div>
 
 <h1> Product Details </h1>
+    <form action="index.php?navigation=product" method="POST">
+    </form>
 <table>
     <tr>
         <th>Product</th>
