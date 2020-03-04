@@ -13,15 +13,14 @@ $value = $list;
       <link rel="stylesheet" type="css" href="style.css">
     </head>
 
-    <form action="index.php?navigation=product" method="POST">
     <div class="navbar">
         <a href="index.php?navigation=product">Products</a>
         <a href="index.php?navigation=categories">Category</a>
         <a href="index.php?navigation=create">Create</a>
     </div>
-    </post>
-<h1> Product Details </h1>
 
+<h1> Product Details </h1>
+<form action="index.php?navigation=product" method="POST">
 <table>
     <tr>
         <th>Product</th>
@@ -29,7 +28,7 @@ $value = $list;
         <th>Price</th>
         <th>Category ID</th>
     </tr>
-
+    
     <tr>
         <td><?php echo $value['name'];?></td>
         <td><?php echo $value['description'];?></td>
@@ -40,4 +39,5 @@ $value = $list;
     </tr>
 
 </table>
+</form>
 </html>
