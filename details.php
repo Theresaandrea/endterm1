@@ -12,7 +12,7 @@ $value = $list;
     <head>  
       <link rel="stylesheet" type="css" href="style.css">
     </head>
-
+        <form action="index.php?navigation=product" method="POST">
     <div class="navbar">
         <a href="index.php?navigation=product">Products</a>
         <a href="index.php?navigation=categories">Category</a>
@@ -20,8 +20,6 @@ $value = $list;
     </div>
 
 <h1> Product Details </h1>
-    <form action="index.php?navigation=product" method="POST">
-    </form>
 <table>
     <tr>
         <th>Product</th>
@@ -40,4 +38,5 @@ $value = $list;
     </tr>
 
 </table>
+      </form>
 </html>
