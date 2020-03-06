@@ -10,7 +10,7 @@ $value = $list;
 ?>
 <html> 
     <head>  
-      <link rel="stylesheet" type="css" href="style.css">
+      <link rel="stylesheet" type="css" href="css/style.css">
     </head>
     <div class="navbar">
         <a href="index.php?navigation=product">Products</a>
