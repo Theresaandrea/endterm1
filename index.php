@@ -34,6 +34,12 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
 	  case 'delete':
             require_once 'delete.php';
             break;
+	  case 'login with google':
+	    require_once 'google.php'; 
+	    break;
+	  case 'login with facebook':
+	    require_once 'fb.php'; 
+	    break;
         }
     ?>
       </div>
